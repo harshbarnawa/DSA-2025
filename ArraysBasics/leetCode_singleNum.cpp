@@ -13,7 +13,7 @@ int singleNumber(vector<int> &nums)
 }
 int main()
 {
-    vector<int> nums = {1, 1, 2, 8, 2, 4, 4};
+    vector<int> nums = {1, 1, 2, 3, 2, 4, 4};
 
     int result = singleNumber(nums);
     cout << result;
